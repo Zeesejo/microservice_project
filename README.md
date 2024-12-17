@@ -1,4 +1,4 @@
-Microservice Project
+**Microservice Project**
 Overview
 This project is a microservice-based architecture that includes two primary services:
 
@@ -19,8 +19,7 @@ Setup Instructions
 Follow these steps to set up and run the project locally:
 
 1. Clone the Repository
-bash
-Kodu kopyala
+
 git clone <repository-url>
 cd microservice_project
 2. Build and Run the Docker Containers
@@ -28,8 +27,6 @@ Make sure Docker is installed and running on your machine.
 
 Run the following command to build and start the containers:
 
-bash
-Kodu kopyala
 docker-compose up --build
 This will:
 
@@ -42,24 +39,19 @@ Testing the Services
 1. AI Backend
 Test the prediction endpoint using cURL or Postman:
 
-bash
-Kodu kopyala
+
 curl http://127.0.0.1:5000/predict
 2. UI Backend
 Visit the UI in your browser:
 
-bash
-Kodu kopyala
+
 http://127.0.0.1:5001
 Stop the Services
 To stop the running containers:
-
-bash
-Kodu kopyala
 docker-compose down
+
 Folder Structure
-plaintext
-Kodu kopyala
+
 microservice_project/
 ├── ai_backend/
 │   ├── app.py       # Flask app for AI service
